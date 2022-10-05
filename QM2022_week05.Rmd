@@ -1,5 +1,5 @@
 ---
-title: "QM 2021 Week 5: Statistical Control & Causality"
+title: "QM 2022 Week 5: Statistical Control & Causality"
 author: "Oliver Rittmann<br>Domantas Undzėnas<br>Lion Behrens"
 date: "October 5 | 6 | 7, 2022"
 output:
