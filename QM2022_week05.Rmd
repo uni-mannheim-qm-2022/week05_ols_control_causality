@@ -11,7 +11,7 @@ output:
   pdf_document:
     toc: yes
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ------------------------------------------------------------------------
@@ -1028,7 +1028,7 @@ It turns out that `vote_pop_right` is a collider and thus a **bad** control vari
 
 ### Appendix II: More complex sample selection
 
-From our DAG in the attendace-grade example, we would assume that attendance affects survey response and so does exam performance. However, the relationship does not have to be direct. Instead, we could assume that attendance does not impact poll response, because the poll is done online. Instead, there may be an unobserved confounder that affects our outcome, exam grades, and poll response rate. For example: Internet speed (or access) could impact exam grades, because it makes preparation and learning harder, and poll response rate, because it is harder for students to participate in an online poll. It does however not affect attendance, as the lecture is teached only in person.
+From our DAG in the attendance-grade example, we would assume that attendance affects survey response and so does exam performance. However, the relationship does not have to be direct. Instead, we could assume that attendance does not impact poll response, because the poll is done online. Instead, there may be an unobserved confounder that affects our outcome, exam grades, and poll response rate. For example: Internet speed (or access) could impact exam grades, because it makes preparation and learning harder, and poll response rate, because it is harder for students to participate in an online poll. It does however not affect attendance, as the lecture is teached only in person.
 
 ![](images/selection2_dag.png){width="200px"}
 
